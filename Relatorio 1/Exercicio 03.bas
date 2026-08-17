@@ -9,10 +9,10 @@ minutos = horas * 60
 
 segundos = minutos * 60
 
-Print "Valor original em horas" ;  horas
+Print "Valor original em horas" ;  horas ; " horas"
 
-Print "Valor convertido em minutos" ; minutos
+Print "Valor convertido em minutos" ; minutos ; " minutos"
 
-Print "Valor convertido em segundos" ; segundos
+Print "Valor convertido em segundos" ; segundos ; " segundos"
 
 Sleep
