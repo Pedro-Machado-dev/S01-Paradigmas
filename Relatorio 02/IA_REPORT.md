@@ -1,6 +1,6 @@
 # Pedro Henrique Silva Machado GES - 805
 
---
+---
 
 Usei IA para saber como realizar uma parte do exercicio 2
 
@@ -31,3 +31,11 @@ Lua começa a contar do 1 (e não do 0): Diferente de linguagens como C ou C++, 
 
 Falta de um parêntese: Você abriu dois parênteses em table.insert( e tonumber(, mas só fechou o do io.read(). Falta fechar o do insert.
 }
+
+
+
+Usei a IA no exercicio 04 para saber como fazer o calculo da diferença absoluta
+
+-como posso fazer o calculo para descobrir a diferença absoluta entre dois numeros? |n1 - n2|?
+
+--Não, apenas basta usar math.abs(), nesse caso ficará math.abs(n1 - n2)
