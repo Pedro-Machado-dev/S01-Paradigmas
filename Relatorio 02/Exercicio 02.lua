@@ -17,12 +17,12 @@ print("Insira a quantidade de elementos:")
 local elementos = tonumber(io.read())
 
 for i = 1, elementos do
-  print("digite o elemento " .. i)
+  print("Digite o elemento " .. i)
   table.insert(tabela, tonumber(io.read()))
   end 
 
 
-print("Insira um número a ser buscado")
+print("Insira um numero a ser buscado")
 local procurado = tonumber(io.read())
 
 local ocorrencias = contarOcorrencias(tabela, procurado)
