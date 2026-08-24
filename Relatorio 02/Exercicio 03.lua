@@ -19,11 +19,11 @@ print("Insira a quantidade de elementos:")
 local elementos = tonumber(io.read())
 
 for i = 1, elementos do
-  print("digite o elemento " .. i)
+  print("Digite o elemento " .. i)
   table.insert(tabela, tonumber(io.read()))
   end 
 
-print("Digite o número limite:")
+print("Digite o numero limite:")
 local limit = tonumber(io.read())
 
 local tabelabig = filtrarMaiores(tabela, limit)
