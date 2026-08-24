@@ -26,11 +26,11 @@ local function analisarNumeros(num1, num2, oper)
     end
   end
 
-print("Digite o primeiro número: ")
+print("Digite o primeiro numero: ")
 local num1 = tonumber(io.read())
 
 
-print("Digite o segundo número: ")
+print("Digite o segundo numero: ")
 local num2 = tonumber(io.read())
 
 
