@@ -28,7 +28,7 @@ fn main() {
             println!("Voce acertou! Ficou a apenas {} unidades do numero secreto!", distancia);
             break;
         } else {
-            println!("Voce! passou longe Tente novamente.");
+            println!("Voce passou longe! Tente novamente.");
         }
     }
 }
