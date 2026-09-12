@@ -30,7 +30,7 @@ int main()
 
   total = combinar_equipes(chaveamento);
 
-  cout<< "Total de cenários de confrontos possíveis: " << total << endl;
+  cout<< "Total de cenarios de confrontos possiveis: " << total << endl;
 
   return 0;
 }
