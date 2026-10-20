@@ -10,7 +10,7 @@ class Instrumentista
   end
 
   def interpretar(peca)
-    raise NotImplementedError, "Implementação "
+    raise NotImplementedError, "#{self.class} deve implementar o método interpretar"
   end
 end
 
