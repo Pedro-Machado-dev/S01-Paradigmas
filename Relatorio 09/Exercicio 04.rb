@@ -1,7 +1,7 @@
 #modulo contrato
 module Depoente
   def depor
-    raise NotImplementedError, "Implementacao"
+    raise NotImplementedError, "#{self.class} deve implementar depor"
   end
 end
 
