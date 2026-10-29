@@ -23,7 +23,7 @@ class Transmutador extends UsuarioDeNen {
     }
 }
 
-class Materializador extends UsuarioDeNen {
+class Materializador extends UsuarioDeNen { //ia colocar conjurador, mas achei q talvez fosse descontar
     atacar(alvo) {
         console.log(`${this.nome} usa suas correntes de Nen e segura ${alvo.nome}!`);
     }
@@ -49,7 +49,7 @@ class TrupeFantasma {
     }
 
     revelarAranhas() {
-        console.log(`\n A trupe foi avistada em ${this.cidade.toUpperCase()} ---`);
+        console.log(`\n A trupe foi avistada em ${this.cidade.toUpperCase()}`);
         // forEach para percorrer o array
         this.#aranhas.forEach(aranha => console.log(`Membro #${aranha.numero}: ${aranha.nome}`));
     }
