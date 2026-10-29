@@ -6,7 +6,7 @@ class FichaDeCriatura {
     }
 
     descrever() {
-        return `Criatura: ${this.criatura} | Nível de Perigo: ${this.nivelDePerigo}`;
+        return `Criatura: ${this.criatura} | Nivel de Perigo: ${this.nivelDePerigo}`;
     }
 }
 
@@ -51,7 +51,7 @@ class CabanaDoMisterio {
     }
 
     abrirAsPortas() {
-        console.log(`\n Cabana do misterio (Proprietario: ${this.dono}) ---`);
+        console.log(`\n Cabana do misterio (Proprietario: ${this.dono})`);
         this.#funcionarios.forEach(func => console.log(`Funcionario(a): ${func.nome} - ${func.cargo}`));
     }
 }
