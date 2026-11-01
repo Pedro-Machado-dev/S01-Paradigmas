@@ -1,4 +1,4 @@
-// Classe herda a interface
+// Classe herda a sobrenatural (interface)
 public class EspiritoYoukai implements Sobrenatural {
     // encaps
     private String nome;
