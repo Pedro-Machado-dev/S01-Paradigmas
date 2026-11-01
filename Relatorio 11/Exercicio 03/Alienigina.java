@@ -1,4 +1,4 @@
-//classe que 
+//classe que herda sobrenatural (interface)
 public class Alienigena implements Sobrenatural {
     // encapsulamento
     private String nome;
