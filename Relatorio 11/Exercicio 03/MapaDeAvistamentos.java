@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class MapaDeAvistamentos 
+public class MapaDeAvistamentos {
     private HashMap<String, Sobrenatural> avistamentos;
 
     // construtor sem parametros que inicializa o mapa vazio
