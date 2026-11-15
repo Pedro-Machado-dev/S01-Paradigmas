@@ -47,7 +47,7 @@
       (format t "Total de mora (todos os dominios com bonus): ~,2f~%" total-mora))
 
     ; demonstrando a alteracao de valor
-    (format t "~% Alterando copia com setf ~%")
+    (format t "~% Alterando copia ~%")
     (let* ((original (car dominios))
            (copia    (copy-dominio original)))
       (setf (dominio-mora copia) 9999)
